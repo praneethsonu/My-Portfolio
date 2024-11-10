@@ -10,29 +10,28 @@
 
     <meta
       name="description"
-      content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations."
+      content=""
     />
 
     <!-- Google / Search Engine Tags -->
 <meta itemprop="name" content="Praneeth's Portfolio">
-<meta itemprop="description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
-
+<meta itemprop="description" content="">
 <!-- Reference screenshot of updated site's header in place of content -->
 <meta itemprop="image" content="assets/images/sharing-card.png">
 
 <!-- Facebook Meta Tags -->
-<meta property="og:url" content="https://ossportfolio.netlify.app">
+<meta property="og:url" content="">
 <meta property="og:type" content="website">
-<meta property="og:title" content="praneeth's Portfolio">
-<meta property="og:description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+<meta property="og:title" content="Praneeth's Portfolio">
+<meta property="og:description" content="">
 
 <!-- Reference screenshot of updated site's header in content -->
 <meta property="og:image" content="assets/images/sharing-card.png">
 
 <!-- Twitter Meta Tags -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Syed Mohsin's Portfolio">
-<meta name="twitter:description" content="Welcome to my portfolio website. I am a front-end web developer and I specialize in creating user-friendly, responsive and accessible websites. Explore my projects, open-source work and contact me for any inquiries or collaborations.">
+<meta name="twitter:title" content="Praneeth's Portfolio">
+<meta name="twitter:description" content="">
 
 <!-- Reference screenshot of updated site's header in content -->
 <meta name="twitter:image" content="assets/images/sharing-card.png">
@@ -94,12 +93,12 @@
           <!-- Replace with your name and job title -->
           <h1 class="h1">
             <span>Hi, I'm Praneeth Bhandwalkar</span>
-            <span>Cloud Engineer!</span>
+            <span>Cloud Engineer.</span>
           </h1>
 
           <!-- Add a small introductory paragraph about yourself -->
           <p class="header-text">
-            I am a skilled Cloud engineer with two years of experience. My expertise lies in designing, implementing, and managing cloud-based infrastructure and applications. I have hands-on experience working with leading cloud platforms like Amazon Web Services (AWS) and Microsoft Azure, (GCP). 
+            I am a Cloud engineer with two years of experience. I focus on transforming ideas into scalable solutions through innovative projects. Currently, I am seeking an entry-level position in cloud computing to launch my career. I have experience with AWS and Azure platforms along with implementing, and managing cloud-based infrastructure and applications. 
           </p>
 
           <div class="header-btns">
@@ -208,28 +207,31 @@
             <div class="work-box">
               <div class="work-textbox">
                 <!-- Add your project title here -->
-                <h3 class="h3">Three Tier Architecture</h3>
+                <h3 class="h3">Serverless GeoServer Infrastructure</h3>
                 <!-- Add small description of your project  -->
                 <p class="work-text">
-                  Use AWS Identity and Access Management (IAM) to control who is authenticated (signed in) and authorized (has permissions) to use your account's resources.
+                  Deploying GeoServer with PostgreSQL and PostGIS on AWS via Fargate simplifies geospatial data management by removing server maintenance tasks.
                 </p>
                 <!-- Add technologies you used to build the project -->
                 <ol class="work-technologies">
-                  <li>Amazon EC2</li>
-                  <li>IAM Policies</li>
-                  <li>IAM User & User Groups</li>
-                  <li>AWS Account Alias</li>
+                  <li>Amazon RDS</li>
+                  <li>Amazon VPC</li>
+                  <li>Amazon EFS</li>
+                  <li>AWS Fargate</li>
+                  <li>Amazon CLI</li>
+                  <li>GeoServer</li>
+                  <li>PostgreSQL</li>
                 </ol>
 
                 <div class="work-links">
                   <!-- Add url of project in href attribute -->
-                  <a href="https://github.com/praneethsonu/AWS-Projects/tree/main/Project%20-%203" target="_blank" rel="noopener" class="link"
+                  <a href="https://github.com/praneethsonu/aws-serverless-geoserver-infrastructure" target="_blank" rel="noopener" class="link"
                     >Explore this project</a
                   >
 
                   <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
                   <a
-                    href="https://github.com/praneethsonu/AWS-Projects/tree/main/Project%20-%203"
+                    href="https://github.com/praneethsonu/aws-serverless-geoserver-infrastructure"
                     target="_blank"
                     rel="noopener"
                     title="Source code"
@@ -248,7 +250,7 @@
               <picture class="work-img">
                 <img
                   loading="lazy"
-                  src="assets/images/work/AWS cloud diagram (Community).png"
+                  src="assets/images/work/GeoserverArchitecture.png"
                   alt="agency elevation"
                 />
               </picture>
@@ -256,23 +258,27 @@
             <div class="work-box">
               <div class="work-textbox">
                 <!-- Add your project title here -->
-                <h3 class="h3">Host A Website On Amazon S3</h3>
+                <h3 class="h3">Three-Tier Web Architecture</h3>
                 <!-- Add small description of your project  -->
 
-                <p class="work-text">I used S3 for static website hosting. By uploading the HTML file and Folder where all files like images are present and uploaded in an S3 bucket and making them publicly accessible on the internet.</p>
+                <p class="work-text">Three-tier AWS VPC setup has web, app, and database layers. Traffic flows via Route 53, and an external ALB to EC2 web servers. An internal ALB routes requests to app servers, which interact with an MySQL DB.</p>
                 <ol class="work-technologies">
+                  <li>Amazon EC2</li>
+                  <li>Amazon RDS</li>
                   <li>Amazon S3</li>
-                  <li>Website Files - HTML & CSS File</li>
+                  <li>Amazon VPC</li>
+                  <li>Amazon Route 53</li>
+                  <li></li>
                 </ol>
                 <div class="work-links">
                   <!-- Add url of project in href attribute -->
-                  <a href="https://github.com/praneethsonu/AWS-Projects/tree/main/Project%20-%202" target="_blank" rel="noopener" class="link"
+                  <a href="https://github.com/praneethsonu/AWS-Three-Tier-Web-App" target="_blank" rel="noopener" class="link"
                     >Explore this project</a
                   >
 
                      <!-- Add link to project source code in href attribute if applicable otherwise feel free to delete or comment the markup -->
                   <a
-                    href="https://github.com/praneethsonu/AWS-Projects/tree/main/Project%20-%202"
+                    href="https://github.com/praneethsonu/AWS-Three-Tier-Web-App"
                     target="_blank"
                     rel="noopener"
                     title="Source code"
@@ -289,7 +295,7 @@
               <picture class="work-img">
                 <img
                   loading="lazy"
-                  src="assets/images/work/S3 - Architecture.png"
+                  src="assets/images/work/architecture.png"
                   alt="portfolio template"
                 />
               </picture>
@@ -545,7 +551,7 @@
             </li>
             <li class="testimonial">
               <blockquote class="testimonial-text">
-                Syed is a true professional with amazing talent. He is a creative
+                Praneeth is a true professional with amazing talent. He is a creative
                 thinker, has his finger on the pulse of whats to come, and
                 absolutely one of the quickest and best problem solvers I have
                 ever met.
@@ -564,7 +570,7 @@
             </li>
             <li class="testimonial">
               <blockquote class="testimonial-text">
-               Syed is one of my favourite people to work with. He's my go-to colleague when trouble shooting any new technique or technology because she understands how to tackle unknown problems with gumption. 
+               Praneeth is one of my favourite people to work with. He's my go-to colleague when trouble shooting any new technique or technology because she understands how to tackle unknown problems with gumption. 
               </blockquote>
               <figure class="testimonial-author">
                 <img
