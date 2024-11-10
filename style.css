@@ -426,7 +426,7 @@ main {
   min-block-size: 100vh;
   position: fixed;
   width: 100%;
-  background-color: #ff5e99;
+  background-color: #000000;
   background-image: var(--gradient-brand);
   transition: 450ms var(--easing);
   z-index: 3;
@@ -448,7 +448,7 @@ main {
   display: inline-block;
   font-size: var(--h2);
   text-decoration: none;
-  color: #fff;
+  color: #ffffff;
 }
 
 .nav-item a::after {
@@ -487,7 +487,7 @@ body.dark .header {
 
 body.light .header {
   background-image: linear-gradient(#ffffffa2, #ffffffe6),
-    url("assets/images/hero-bg-light.webp");
+    url("assets/images/1549.jpg");
 }
 
 .header-textbox {
