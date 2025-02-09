@@ -636,6 +636,11 @@ body.light .logo {
   .work-img {
     margin-block-end: var(--gutter-medium);
   }
+  .pic-img {
+    margin-inline-end: var(--gutter-micro);
+    margin: bottom 50px;;
+    margin-top: 60px;
+  }
 }
 
 .work-box:not(:last-child) {
